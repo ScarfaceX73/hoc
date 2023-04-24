@@ -1,0 +1,76 @@
+{
+  "input": [
+    {
+      "id": 1,
+      "label": "First Name",
+      "type": "text",
+      "placeholder": "First Name"
+    },
+    {
+      "id": 2,
+      "label": "Last Name",
+      "type": "text",
+      "placeholder": "Last Name"
+    },
+    {
+      "id": 3,
+      "label": "Email",
+      "type": "email",
+      "placeholder": "Email"
+    },
+    {
+      "id": 4,
+      "name": "employment",
+      "label": "Employed",
+      "type": "radio",
+      "value": "employed"
+    },
+    {
+      "id": 5,
+      "name": "employment",
+      "label": "Unemployed",
+      "type": "radio",
+      "value": "unemployed"
+    },
+    {
+      "id": 6,
+      "name": "react",
+      "type": "checkbox",
+      "label": "ReactJS"
+    },
+    {
+      "id": 7,
+      "name": "angular",
+      "type": "checkbox",
+      "label": "Angular"
+    },
+    {
+      "id": 8,
+      "name": "express",
+      "type": "checkbox",
+      "label": "ExpressJs"
+    },
+    {
+      "id": 9,
+      "name": "node",
+      "type": "checkbox",
+      "label": "Node.js"
+    }
+  ],
+
+  "select": {
+    "preferredTech": {
+      "id": 10,
+      "label": "Preferred Tech",
+      "value": [
+        "--Select--",
+        "Javascript",
+        "Java",
+        "C++",
+        "Python",
+        "GraphQL",
+        "Other"
+      ]
+    }
+  }
+}
